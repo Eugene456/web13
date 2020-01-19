@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-ExtraBold.eot');
+    src: local('Panton ExtraBold'), local('Panton-ExtraBold'),
+        url('../font/Panton-ExtraBold.eot') format('embedded-opentype'),
+        url('../font/Panton-ExtraBold.woff') format('woff'),
+        url('../font/Panton-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-Bold.eot');
+    src: local('Panton Bold'), local('Panton-Bold'),
+        url('../font/Panton-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Panton-Bold.woff') format('woff'),
+        url('../font/Panton-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-Light.eot');
+    src: local('Panton Light'), local('Panton-Light'),
+        url('../font/Panton-Light.eot?#iefix') format('embedded-opentype'),
+        url('../font/Panton-Light.woff') format('woff'),
+        url('../font/Panton-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-Black.eot');
+    src: local('Panton Black'), local('Panton-Black'),
+        url('../font/Panton-Black.eot?#iefix') format('embedded-opentype'),
+        url('../font/Panton-Black.woff') format('woff'),
+        url('../font/Panton-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('Panton-SemiBold.eot');
+    src: local('Panton SemiBold'), local('Panton-SemiBold'),
+        url('../font/Panton-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Panton-SemiBold.woff') format('woff'),
+        url('../font/Panton-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+

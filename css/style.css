@@ -1,0 +1,259 @@
+@font-face {
+  font-family: 'Panton';
+  src: url("Panton-ExtraBold.eot");
+  src: local("Panton ExtraBold"), local("Panton-ExtraBold"), url("../font/Panton-ExtraBold.eot") format("embedded-opentype"), url("../font/Panton-ExtraBold.woff") format("woff"), url("../font/Panton-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Panton';
+  src: url("Panton-Bold.eot");
+  src: local("Panton Bold"), local("Panton-Bold"), url("../font/Panton-Bold.eot?#iefix") format("embedded-opentype"), url("../font/Panton-Bold.woff") format("woff"), url("../font/Panton-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Panton';
+  src: url("Panton-Light.eot");
+  src: local("Panton Light"), local("Panton-Light"), url("../font/Panton-Light.eot?#iefix") format("embedded-opentype"), url("../font/Panton-Light.woff") format("woff"), url("../font/Panton-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Panton';
+  src: url("Panton-Black.eot");
+  src: local("Panton Black"), local("Panton-Black"), url("../font/Panton-Black.eot?#iefix") format("embedded-opentype"), url("../font/Panton-Black.woff") format("woff"), url("../font/Panton-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Panton';
+  src: url("Panton-SemiBold.eot");
+  src: local("Panton SemiBold"), local("Panton-SemiBold"), url("../font/Panton-SemiBold.eot?#iefix") format("embedded-opentype"), url("../font/Panton-SemiBold.woff") format("woff"), url("../font/Panton-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+.header {
+  max-width: 1576px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .name {
+  font-family: "Panton", sant-serif;
+  font-weight: 800;
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.phone__span {
+  font-family: "Panton", "Arial";
+  font-weight: 800;
+  font-size: 1.8em;
+  margin-bottom: 7px;
+  display: block;
+}
+
+.phone__btn {
+  font-family: "Panton", "Arial";
+  font-weight: 600;
+  font-size: 1.5em;
+  padding: 14px 34px;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-bottom: 23px;
+}
+
+.nav__wrapper {
+  max-width: 1576px;
+  background-color: #292d30;
+}
+
+.nav__ul {
+  margin: 0;
+  height: 96px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__item {
+  list-style-type: none;
+}
+
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Panton", "Arial";
+  font-weight: 300;
+  font-size: 30px;
+  margin-right: 32px;
+}
+
+.main__wrapper {
+  background-image: url(../img/bg.jpg);
+  background-position: center;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 275px;
+  margin-bottom: 62px;
+}
+
+.main__span {
+  font-family: "Panton", "Arial";
+  font-weight: 900;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 31px;
+}
+
+.main__text {
+  margin: 0;
+  font-family: "Panton", "Arial";
+  font-weight: 600;
+  font-size: 1.5em;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 80px;
+}
+
+.main__label {
+  margin: 0;
+  font-family: "Panton", "Arial";
+  font-weight: 600;
+  font-size: 1.5em;
+  color: #fff;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.main__label-two {
+  margin-bottom: 25px;
+}
+
+.main__arrow {
+  position: absolute;
+  bottom: -30%;
+  right: 31%;
+}
+
+.main__btn {
+  background-color: #059feb;
+  border: none;
+  border-radius: 35px;
+  color: #fff;
+  font-family: "Panton", "Arial";
+  font-weight: 800;
+  font-size: 2em;
+  padding: 20px 45px;
+  text-transform: uppercase;
+  margin-bottom: 150px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  height: 40px;
+  margin-bottom: 36px;
+}
+
+.logo__inline-icon {
+  height: 100%;
+  width: 100%;
+}
+
+.mouse {
+  margin-bottom: 100px;
+}
+
+.task {
+  font-family: "Panton", "Arial";
+  font-weight: 900;
+  font-size: 2.4em;
+  text-transform: uppercase;
+  color: #363636;
+  text-align: center;
+}
+
+.task::after {
+  content: "";
+  display: block;
+  border: 2px solid #059feb;
+  width: 180px;
+  margin: 15px auto;
+}
+
+.task__text {
+  font-family: "Panton", "Arial";
+  font-weight: 600;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.container {
+  max-width: 1576px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.service__img {
+  display: block;
+  margin: 0 auto;
+}
+
+.service__head {
+  font-family: "Panton", "Arial";
+  font-weight: 600;
+  font-size: 1.5em;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
